@@ -14,10 +14,10 @@ lapply(1:max(df$index), function(x) chars2data(char=df$chars[x],
 
 ## tasks
 - annotate script
-- __formulate bundler function__
+- ~~formulate bundler function~~
 - variable random noise factor
 - elliptical function in addition to circular one
-- __add additional letters__
+- ~~add additional letters~~
     - available:
         - A
         - B
@@ -29,14 +29,25 @@ lapply(1:max(df$index), function(x) chars2data(char=df$chars[x],
         - L
         - M
 - replace vertical lines by function
-- __make jitter factor a variable__
+- ~~create jitter factor a variable~~
 - possible variables:
     - alpha
-    - __jitter factor__
+    - ~~jitter factor~~
         - differentiate between x and y jitter
     - method (raster, polygon) [consolidate]
     - conditional additional layers
     - background
     - grid
+- combine multi-liner and one-liner into one function
 
-  ![](/display/banner-hex.png)
+## examples
+Small multiline 'logos' work pretty well already:
+![hex mode banner](/display/banner-hex.png)
+![hex mode](/display/logo-triple-hex.png)
+![raster mode](/display/logo-triple-raster.png)
+![multilayering](/display/logo-triple-hex6-clear.png)
+
+## still in development
+The ideal distribution parameter for large word numbers has still to be figured out, as you can see:
+
+![](/display/gencon.png)
