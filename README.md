@@ -39,4 +39,4 @@ lapply(1:max(df$index), function(x) chars2data(char=df$chars[x],
     - background
     - grid
 
-  ![](../display/banner-hex.png)
+  ![](/display/banner-hex.png)
